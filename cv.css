@@ -1,0 +1,18 @@
+#cv {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: honeydew;
+    padding: 6%;
+    border-radius: 5px;
+}
+
+.divCv {
+    width: 100%;
+    background-color: honeydew;
+    color: black;
+    margin-top: 2%;
+    padding: 2%;
+}
+

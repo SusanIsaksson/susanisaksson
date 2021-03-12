@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: rgba(95, 6, 95, 0.603);
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    clear: both;
+    font-family: arial;
+    font-size: 10vw;
+}
+
+a {
+    margin-left: 1vw;
+    text-decoration: none;  
+    font-size: 2vw; 
+    color:whitesmoke;
+  
+}
+
+p {
+    font-size: 1vw;
+}
+
+ul.nav.navbar-nav{
+    width: 700px;
+    height: auto;
+}
+        
+li {
+    height: 2vw;
+    margin-left: 8%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1vw;
+}
+
+i {
+    height: 10vw;
+    width: auto;
+}
+
+footer {
+    margin-left: 10%;
+}
+a:link, a:visited, i {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+a:hover, a:active, i {
+    text-decoration: none;
+}
+
+#omMig, h5 {
+    font-size: 20px;
+}
+@media only screen and (max-width: 661px) {
+    #omMig, h5 {
+      font-size: 10px;
+    }
+  }
+.header {
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;    
+}
+
+.firstName {
+    font-size: 10vw;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.divRigth {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    margin-right: 0;
+}
+
+.divRigth img {
+
+    border-radius: 5px;
+}
+
+.navbar navbar-inverse {
+    height: 40%;
+    width: 70%;
+    background-color:rgba(75, 3, 75, 0.445);
+}
+
+.navbarOne {
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(75, 3, 75, 0.658);
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 6%;
+    padding: 1%;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbarOne a:hover, .navbarOne a:active,
+.active a:link, .navbarOne .active a:visited {
+    background-color: #cf5c3f;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbarOne a:link, .navbarOne a:visited {
+    color: white;
+    display: inline-block;
+    padding-top: 1%;
+    /* come back here to assign height */
+}
+
+.mainContainer  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6%;
+}
+
+.asideLeft {
+    flex-wrap: wrap;
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.asideLeft img {
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.asideContact {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 12%;
+    padding: 15%;
+    background-color: rgba(75, 3, 75, 0.658);
+    color: white;
+    border-radius: 5px;
+    font-size: 1vw;  
+}
+
+.contactLink {
+    height: 5vw;
+}
+
+.skills {
+    margin-right: 2%;
+    font-size: 1vw;
+}
+
+/* .mainRight {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+} */
+
+.mainRightOne {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 2vw;
+}
+
+.mainRightTwo {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 2vw;
+}
+
+
+
