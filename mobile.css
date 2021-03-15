@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin-left: 1vw;
+    text-decoration: none;  
+    font-size: 3vw; 
+    color:whitesmoke;
+  
+}
+
+p {
+    font-family: verdana;
+    font-size: 3vw;
+}
+
+footer {
+    background-color: rgba(95, 6, 95, 0.603);
+    margin-left: 10%;
+}
+
+li {
+    height: 8vw;
+    margin-left: 8%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: verdana;
+    font-size: 2vw;
+}
+.bodyMobile {
+    background-color: rgba(95, 6, 95, 0.603);
+    
+    width: 100%;
+    height: 5%;
+    flex-wrap: wrap;
+ 
+    clear: both;
+    font-family: arial;
+    font-size: 12vw;
+}
+
+.mobileImage {
+    background-image: url("/bilder/20210306_221752.jpg");
+    height: 500px;
+    margin-top: 3%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.mobileImageText {
+    text-align: left;
+    position: absolute;
+    top: 6%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgba(95, 6, 95, 0.603);
+}
+.navbarMobile a {
+    width: 90%;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: rgba(75, 3, 75, 0.658);
+    color: whitesmoke;
+    font-family: verdana;
+    font-size: 3vw;
+
+}
+
+/* .navbar navbar-inverse {
+    height: 40px;
+    width: 70%;
+    background-color:rgba(75, 3, 75, 0.445);
+} */
+
+.navbarOne a:hover, .navbarOne a:active,
+.active a:link, .navbarOne .active a:visited {
+    background-color: #cf5c3f;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbarOne a:link, .navbarOne a:visited {
+    color: white;
+    display: inline-block;
+    padding-top: 1%;
+    /* come back here to assign height */
+}
+
+
+.mainRightOneMobile {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 2vw;
+}
+
+.mainRightTwoMobile {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 2vw;
+}
+
+.contactInfo {
+    width: 90%;
+    height: 54vw;
+    margin-left: 5%;
+    margin-top: 8%;
+    padding-left: 16%;
+    padding-top: 4%;
+    background-color: rgba(75, 3, 75, 0.658);
+    color: whitesmoke;
+    border-radius: 5px;
+    font-family: verdana;60
+    font-size: 5vw;  
+}
+
+.contactLink a {
+    height: 5vw;
+    color: whitesmoke;
+    font-size: 6vw;
+}
+

@@ -5,106 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="response.css">
-
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/2ab6c683d8.js" crossorigin="anonymous"></script>
 </head>
-<body class="body">
-    <header>
-        <div class="header">
-           
-            <div>
+<body class="bodyMobile">
+    
+    <header class="header">
+        <div class="mobileImage"></div>
+            <div class="mobileImageText">
               <div class="pNameOne"> Susan</div>
             </div>
-            
-            <div class="divRigth">
-                <img src="/bilder/20201230_135455.jpg" class="img-fluid"  alt="responive image">
-             </div>
+        </div>
+        <div class="navbarMobile">
+            <a href="#omMig">OM MIG</a>               
+            <a href="#minYrkeserfarenhet">MIN YRKESERFARENHET</a>    
+            <a href="#kontaktaMig">KONTAKTA MIG</a>           
+        </div>
+        <!-- <ul class="nav navbar-nav">
+            <li><a href="https://susanisaksson.nu"><h5>Hem</h5></a></li>
+            <li><a class="navbar-brand" href="https://susanisaksson.nu"><i class="fas fa-home">Hem</i></a></li>
+            <li><a href="#omMig"><h5> OM MIG</h5></a></li>
+            <li><a href="#minYrkeserfarenhet"><h5>MIN YRKESERFARENHET</h5></a></li>
+            <li><a href="#kontaktaMig"><h5>KONTAKTA MIG</h5></a></li>
+          </ul> -->
         </div>
     </header>
-    <!-- <div class="navbar" hidden>
-        <nav class="navbarOne">
-            <a href="#hem"><h5 class="active">HEM</h5></a>
-            <a href="#omMig"><h5>OM MIG</h5></a>
-            <a href="#minYrkeserfarenhet"><h5>MIN YRKESERFARENHET</h5></a>
-            <a href="#minPortfolio"><h5>MIN PORTFOLIO</h5></a>
-            <a href="#kontaktaMig"><h5>KONTAKTA MIG</h5></a>
-        </nav>
-    </div> -->
-    <nav class="navbar navbar-inverse" style="width: 70%; height: auto; background-color: rgba(75, 3, 75, 0.658); margin-top: 6%; margin-left: 5%;">
-        <div class="container-fluid">
-          <!-- <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><i class="fas fa-home">Hem</i></a>
-          </div> -->
-          <!-- <div class="collapse navbar-collapse" id="myNavbar"> -->
-            <ul class="nav navbar-nav">
-              <!-- <li><a href="https://susanisaksson.nu"><h5>Hem</h5></a></li> -->
-              <li><a class="navbar-brand" href="https://susanisaksson.nu"><i class="fas fa-home">Hem</i></a></li>
-              <li><a href="#omMig"><h5> OM MIG</h5></a></li>
-              <li><a href="#minYrkeserfarenhet"><h5>MIN YRKESERFARENHET</h5></a></li>
-              <li><a href="#kontaktaMig"><h5>KONTAKTA MIG</h5></a></li>
-            </ul>
-            <!-- <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul> -->
-          </div>
-        </div>
-    </nav>
 
-    <!-- <div class="mainContainer"> -->
-
-        <aside class="asideLeft">
-            <img src="/bilder/20210306_221752.jpg" alt="">
-
-            <div class="asideContact">
-                <h5 id="minaKontaktuppgifter">MINA KONTAKTUPPGIFTER</h5> <br>
-                <!-- <p id="kontaktaMig">MINA KONTAKTUPPGIFTER</p> <br> -->
-
-                <p>Susan Isaksson</p>
-                <p>Krukmakarevägen 25 </br> 444 95 Ödsmål</p>
-                <p>Mobil +46 (0)705-694064</p> <br>
-                <div class="contactLink"><a href="mailto:susan.isaksson@medieinstitutet.se"><i class="fas fa-envelope-square"></i></a>
-                <a href="https://github.com/SusanIsaksson"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/susanisaksson"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <br>
-                <h5>SKILLS</h5>
-                  <ul class="skills">
-                    <li><p>HTML5 &nbsp; &nbsp; &nbsp; &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></p></li>
-                    <li>CSS3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;</li>
-                    <li><p>Javascript &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i></p></li>
-                    <li><p>JQuery &nbsp; &nbsp; &nbsp;<i class=" fas fa-star-half-alt"></i>&nbsp; <i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i></p></li>
-                    <!-- <li><p>React &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i>&nbsp</p></li> -->
-                    <!-- <li><p>Vue &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i>&nbsp</p></li> &nbsp;<i class="fas fa-star-half-alt"></i>-->
-                    <li><p>JSON &nbsp; &nbsp; &nbsp; &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i></p></li>
-                    <li><p>PHP &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="fas fa-star-half-alt"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></p></li>
-                    <li><p>MySQL &nbsp; &nbsp; &nbsp;<i class=" fas fa-star"></i>&nbsp; <i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp<i class="far fa-star"></i></p></li>
-                    <br>
-                    <li><p>Adobe InDesign &nbsp; &nbsp; &nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;</li>
-                    <li><p>Adobe Pagemaker &nbsp; <i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;</li>
-                    <li><p>Adobe Photoshop &nbsp; &nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;</li>
-                  </ul>
-            </div>
-            <footer><p>Susan Isaksson Copyright 2021</p></footer>
-            
-        </aside>
-    <!-- </div> -->
-
-    <div class="mainRightOne">
-        <h4 id="omMig">OM MIG</h4> 
+    <div class="mainRightOneMobile">
+        <h5 id="omMig">OM MIG</h5> 
             <p>År 2020 blir året då jag tar steget och byter yrkesinriktning och börjar utbilda mig hos Medieinstitutet i Göteborg.
             Valet av utbildning, <b>Webbutvecklare inom e-handel</b>, ligger helt i linje med mitt intresse för digital teknik och min passion för utveckling,
             design, informationsflöde och kreativitet.  </p> <p></p>
-            <h5><b>Utbildningen är en Yh-utbildning på 2 år och 400 Yh-poäng och innehållet är bland annat:</b></h5>
+            <p><b>Utbildningen är en Yh-utbildning på 2 år och 400 Yh-poäng och innehållet är bland annat:</b></p>
             <ul>
               <li><p>Front- och backendutveckling(HTML5, CSS3, Javascript, JQuery, React, Vue, JSON och SQL)</p></li>
               <li><p>Systemutveckling - PHP, databasteknik, responive webbutveckling</p></li>
@@ -118,7 +53,7 @@
               Även om jag då inte valde att ta steget fullt ut, har jag alltid varit drivande och deltagit i den digitala utvecklingen på de arbetsplatser jag jobbat 
               på under åren. Mitt intresse för den digitala tekniken som fanns då, finns fortfarande kvar och har under åren marinerats och mognat till att jag nu ger mig 
               själv möjligheten att uppnå min dröm - att få jobba proffessionellt med detta.</p> 
-            <p><h5><b>Det är aldrig försent...</b></h5></p>
+            <p><b>Det är aldrig försent...</b></p>
             <p>Annars klappar mitt hjärta lite extra för Dalarna, där jag som dalkulla är född och uppvuxen. Kärleken tog mig till västkusten, Stenungsunds kommun och 
               Ödsmål, där jag bor idag. Jag är gift med Urban och vi har två gemensamma barn eller idag ungdomar, dessutom har jag ytterligare två vuxna bonusbarn med familjer och 
               tre bonusbarnbarn. 
@@ -128,8 +63,8 @@
               ett lite högre tempo. Jag är självgående, men är samtidigt positiv till att arbeta i team och i projektform.</p>
     </div>
 
-    <div class="mainRightTwo">
-        <h4 id="minYrkeserfarenhet"@media only screen and (max-width: 661px) {>MIN YRKESERFARENHET</h4> 
+    <div class="mainRightTwoMobile">
+        <h5 id="minYrkeserfarenhet">MIN YRKESERFARENHET</h5> 
         <p>Då jag hösten 2019 väljer att ta en "time-out" från arbetslivet och påbörja en spännande och utmanande studieresa mot ett nytt mål och min nya yrkesroll som 
           <b>webbutvecklare inom e-handel</b>, som länge varit en dröm på min bucket-list. Eftersom jag just nu lever min dröm, ser jag samtidigt fram emot 
           våren 2022 då jag kommer tillbaka ut på arbetsmarknaden med nya kunskaper och erfarenheter. Mina nya kunskaper blir ett bra komplement till mina 
@@ -158,9 +93,20 @@
           hög kvalitet.</p>
     </div>
 
-    
+    <div class="contactInfo">
+        <h5 id="minaKontaktuppgifter">MINA KONTAKTUPPGIFTER</h5> 
 
-  <!-- bootstrap-kod -->
+        <p>Susan Isaksson</p>
+        <p>Krukmakarevägen 25 </br> 444 95 Ödsmål</p>
+        <p>Mobil +46 (0)705-694064</p> 
+        <div class="contactLink"><a href="mailto:susan.isaksson@medieinstitutet.se"><i class="fas fa-envelope-square"></i></a>
+        <a href="https://github.com/SusanIsaksson"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/susanisaksson"><i class="fab fa-linkedin"></i></a>
+    </div>
+        
+    <!--<footer>Susan Isaksson - Copyright 2021</footer> -->
+    
+    <!-- bootstrap-kod -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   crossorigin="anonymous"></script>
@@ -170,7 +116,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
   crossorigin="anonymous"></script>
-    
     
 </body>
 </html>
