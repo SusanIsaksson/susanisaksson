@@ -2,102 +2,129 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/style.css">
-     <!-- Bootstrap CSS -->
-     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
-    
-     <script defer src="logic.js"></script>
-
-    <title>Susan Isaksson</title>
+    <title>Document</title>
+   
+ <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <script src="https://kit.fontawesome.com/2ab6c683d8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
-<body class="body">
-    <header>
-        <div class="header">
-            <div class="divLeft">
-                <div class="firstName">Susan</div>
-            </div>
-            <!--<div class ="divMid"></div> -->
-            <!-- <div class="divMid"> <h3 style="color: rgba(144, 238, 144, 0.705);">blivande webbutvecklare...</h3> -->
-            <!-- <h5 style="color: rgba(255, 255, 0, 0.788);">blivande webbutvecklare...</h5> </div> -->
-            
-            <div class="divRigth">
-                <img src="/bilder/20201230_135455.jpg" alt="">
-            </div>
+
+  <div class="header">
+    <h1>Susan</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-3 menu">
+        <ul>
+            <li>Om Mig</li>
+            <li>Min Yrkeserfarenhet</li>
+            <li>Kontakta Mig</li>
+            <li>Min Portfolio</li>
+        </ul>
+    </div>  
+    
+    <div class="col-6">
+      <div class="omMig">
+        <div>
+          <h5 id="omMig">OM MIG</h5>
+          <p>År 2020 blir året då jag tar steget och byter yrkesinriktning och börjar utbilda mig hos Medieinstitutet i Göteborg.
+            Valet av utbildning, <b>Webbutvecklare inom e-handel</b>, ligger helt i linje med mitt intresse för digital teknik och min passion för utveckling,
+            design, informationsflöde och kreativitet.  </p> <p></p>
+            <p><b>Utbildningen är en Yh-utbildning på 2 år och 400 Yh-poäng och innehållet är bland annat:</b></p>
+          <ul>
+            <li><p>Front- och backendutveckling(HTML5, CSS3, Javascript, JQuery, React, Vue, JSON och SQL)</p></li>
+            <li><p>Systemutveckling - PHP, databasteknik, responive webbutveckling</p></li>
+            <li><p>E-handel - hur man organiserar en e-handel med dagens krav och e-handelssystem - utveckling...</p></li>
+            <li><p>Systemstöd och tredjepartssystem med betal- och affärssystem samt logistik inom e-handel</p></li> 
+            <li><p>LIA / Praktik på företag inom branschen, ungefär en tredjedel av studietiden.</p></li> 
+          </ul>
+          <p>Mitt intresse för den digitala tekniken har alltid funnits och jag har med spänning följt utvecklingen genom åren. Runt år 2000 och innan Facebook
+            och Instagram fanns i var och varannans mobil, byggde jag min första hemsida för en förening på landsbygden. Det var spännande att ser hur en hemsida 
+            växte fram även om det innebar många timmar vid datorn för att slutföra detta projekt. Därefter fick jag prioritera om min tid, för familjen och barn. 
+            Även om jag då inte valde att ta steget fullt ut, har jag alltid varit drivande och deltagit i den digitala utvecklingen på de arbetsplatser jag jobbat 
+            på under åren. Mitt intresse för den digitala tekniken som fanns då, finns fortfarande kvar och har under åren marinerats och mognat till att jag nu ger mig 
+            själv möjligheten att uppnå min dröm - att få jobba proffessionellt med detta.</p> 
+          <p><b>Det är aldrig försent...</b></p>
+          <p>Annars klappar mitt hjärta lite extra för Dalarna, där jag som dalkulla är född och uppvuxen. Kärleken tog mig till västkusten, Stenungsunds kommun och 
+            Ödsmål, där jag bor idag. Jag är gift med Urban och vi har två gemensamma barn eller idag ungdomar, dessutom har jag ytterligare två vuxna bonusbarn med familjer och 
+            tre bonusbarnbarn. 
+            Fritiden ägnas åt familjen och vänner, lite egen träning, huset och den lilla trädgården.</p>
+          <p>Min personlighet är positiv, prestigelös, service minded, plikttrogen, analytisk, strukturerad, engagerad, lyhörd, flexibel, lösningsorienterad och noggrann.</p>
+          <p> I min yrkesroll trivs jag bäst med omväxlande arbetsuppgifter, frihet under ansvar där jag kan och får ta eget ansvar och växa med rollen, gärna i 
+            ett lite högre tempo. Jag är självgående, men är samtidigt positiv till att arbeta i team och i projektform.</p>
+    
+          
         </div>
-        <!-- <div class="divMid"> <h4 style="color: lightcoral;"> blivande webbutvecklare...</h4></div> -->
-        <!-- <div class="divMid"> <h2 style="color: lightblue;"> blivande webbutvecklare...</h2></div> -->
+        <div class="offLine"></div>
 
         <div>
-            <nav class="navbarOne">
-                <a href="#hem"><h5 class="active">HEM</h5></a>
-                <a href="#omMig"><h5>OM MIG</h5></a>
-                <a href="#minYrkeserfarenhet"><h5>MIN YRKESERFARENHET</h5></a>
-                <a href="#minPortfolio"><h5>MIN PORTFOLIO</h5></a>
-                <a href="#kontaktaMig"><h5>KONTAKTA MIG</h5></a>
-            </nav>
+          <h5 id="minYrkeserfarenhet">MIN YRKESERFARENHET</h5> 
+          <p>Då jag hösten 2019 väljer att ta en "time-out" från arbetslivet och påbörja en spännande och utmanande studieresa mot ett nytt mål och min nya yrkesroll som 
+          <b>webbutvecklare inom e-handel</b>, som länge varit en dröm på min bucket-list. Eftersom jag just nu lever min dröm, ser jag samtidigt fram emot 
+          våren 2022 då jag kommer tillbaka ut på arbetsmarknaden med nya kunskaper och erfarenheter. Mina nya kunskaper blir ett bra komplement till mina 
+          tidigare erfarenheter inom administration. <br><br>
+          En kort summering av min tidigare yrkeserfarenhet är att jag har under åren skaffat mig en lång och bred erfarenhet av administrativa arbetsuppgifter
+          inom bland annat: </p>
+            <ul>
+              <li><p>marknad</p></li>
+              <li><p>order</p></li>
+              <li><p>inköp</p></li>
+              <li><p>lagerhantering</p></li> 
+              <li><p>fakturering</p></li> 
+              <li><p>logistik</p></li> 
+              <li><p>ekonomi</p></li> 
+              <li><p>utbildningssamordnare för vuxenutbildning</p></li> 
+              <li><p>hotellbokningar</p></li> 
+            </ul>
+            <p>Under åren har jag arbetat på de flesta avdelningar inom ett företags organisation och har en fördel 
+            att kunna "se" och förstå helheten.</p> 
+            <p>Jag ser därför postitivt på framtida arbetsgivare och att min bakgrund tillsammans med mina nya kunskaper kan erbjuda..</p>
+            <p>Hör gärna av dig om du vill se mitt fullständiga CV eller för att boka upp ett möte, så berättar jag mer.</p>
+            <p>Lång och bred erfarenhet av administrativt arbete inom utbildningssamordning, marknadsföring/försäljning, order, kundservice, 
+            inköp, lager och logistik, transportbokning och bevakning samt ekonomi med fakturering, leverantörsfakturor, månadssammanställningar och 
+            sekreterare vid möten. Positiv, nyfiken och kreativ med drivkraften att få vara delaktig, ställas inför utmaningar och utvecklas i ett 
+            omväxlande arbete med frihet under ansvar. Med ett tekniskt intresse brinner jag lite extra för digital utveckling, informationsflöde och 
+            hög kvalitet.</p>  
         </div>
-    </header>
+      </div>
+    </div>
+  
+    <div class="col-3 right">
+      <div class="aside">
+        <h3>MINA KONTAKTUPPGIFTER</h3>
+        <h3>Susan Isaksson</h3>
+        <p>Krukmakarevägen 25 </br> 444 95 Ödsmål</p>
+        <p>Mobil +46 (0)705-694064</p> 
+      <div>
+        <!-- <div class="contactLink"> -->
+          <a href="mailto:susan.isaksson@medieinstitutet.se"><i class="fas fa-envelope-square"></i></a>
+          <a href="https://github.com/SusanIsaksson"><i class="fab fa-github-square"></i></a>
+          <a href="https://www.linkedin.com/in/susanisaksson"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
 
-    <!-- <div class="mainContainer"> -->
+<div class="footerDiv">
 
-        <aside class="asideLeft">
-            <img src="/bilder/kvinnaDator.jfif" alt="">
-
-            <div class="asideLeft">
-                <h6 id=minaKontaktuppgifter>MINA KONTAKTUPPGIFTER</h6> <br>
-                <B>Susan Isaksson</B>
-                <p>Krukmakarevägen 25 </br> 444 95 Ödsmål</p>
-                <p>Mobil 0705-694064</p> <br>
-                <p><a href="mailto:susan.isaksson@medieinstitutet.se">Skicka ett mail</a></p><br><br>
-                <h6>Eller besök min:</h6> <br>
-                <p><a href="https://github.com/SusanIsaksson">GitHub</a></p>
-                <p><a href="https://www.linkedin.com/in/susanisaksson">LinkedIn</a></p>
-            </div>
-        </aside>
-
-        <div class="mainRightOne">
-                <h6 id=omMig>OM MIG</h6> <br>
-                    <p>Det är aldrig försent... År 2020 blir året då jag tar steget och byter yrkesinriktning och börjar utbilda mig på Medieinstitutet i Göteborg.
-                    Valet av utbildning, <b>Webbutveckling inom e-handel</b>, ligger helt i linje med mitt intresse och min passion för utveckling, teknik och 
-                    kreativitet.  </p> <br>
-                    <p>Jag tror dessutom att mina tidigare erfarenheter inom administration i alla dessa former...</p> <br>
-                    <p>Min personlighet är positiv, service minded, plikttrogen, analytisk, strukturerad, engagerad, flexibel, lösningsorienterad och noggrann. 
-                    Uppskattar att få ta eget ansvar och växa med rollen, att ingå i ett team men är samtidigt självständig.</p>
-        </div>
-
-            <!-- <div class="mainMiddleTwo"> -->
-            <div class="mainRightTwo">
-                <h4 id=minYrkeserfarenhet>MIN YRKESERFARENHET</h4> <br>
-                <p>Jag är en blivande webbutvecklare inom e-handel och räknar med att vara ute på arbetsmarknaden igen våren 2022 med nya kunskaper. <br><br>
-                En kort summering av min yrkeserfarenhet är att jag har under åren skaffat mig en lång och bred erfarenhet av administrativa arbetsuppgifter
-                 inom bland annat marknad, order, inköp, lagerhantering, 
-                fakturering, logistik och ekonomi. Under åren har jag arbetat på de flesta avdelningar inom ett företags organisation och har en fördel 
-                att kunna "se" och förstå helheten.</p> <br>
-                <p>Jag ser därför postitivt på framtida arbetsgivare och att min bakgrund tillsammans med mina nya kunskaper kan erbjuda..</p>
-                <p>Läs gärna mer i mitt CV <a href="/cv.html">här</a></p>
-            </div>
-
-            <div class="minPortfolio">
-                <div>
-                    <h4>MIN PORTFOLIO - KARUSELL</h4>
-                </div>
-            </div>
-        </div>
-
-        
-    <!-- </div> -->
-
-    
-
+  <div class="footer"> © Susan Isaksson 2021</div>
 </div>
 
-<footer class="footer">
-    <div>
-        <H5>c SusanIsaksson.nu / 2021-01-23</H5>
-    </div>
-</footer>
-    
-</body>
-</html>
+
+    <!-- bootstrap-kod -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+       -->
+  
+  </body>
+  </html>
